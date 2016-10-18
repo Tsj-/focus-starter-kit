@@ -16,6 +16,7 @@
     "bundle": "better-npm-run bundle",
     "build": "npm run bundle",
     "start": "npm run start:npm",
+    "initDB": "node ./api/db/init.js",
     "start:local": "better-npm-run webpack-dev-server-local-focus",
     "start:npm": "better-npm-run webpack-dev-server-npm-focus",
     "watch": "better-npm-run watch",
@@ -111,6 +112,9 @@
   },
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "faker": "^3.1.0",
     "focus-components": "^0.16.0",
     "focus-core": "^0.16.0",
     "focus-devtools": "^0.3.5",
@@ -121,7 +125,9 @@
     "numeral": "^1.5.3",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
-    "react-router": "^2.4.0"
+    "react-router": "^2.4.0",
+    "sequelize": "^3.24.4",
+    "sqlite3": "^3.1.6"
   },
   "devDependencies": {
     "animate.css": "^3.4.0",
