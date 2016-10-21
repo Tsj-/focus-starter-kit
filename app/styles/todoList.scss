@@ -1,0 +1,89 @@
+
+body {
+  padding-top: 15px;
+  background-color: #fcfcfc;
+
+}
+
+[data-todo='inputs']{
+  display : flex;
+  width: 20%;
+}
+.icon-save {
+    color: #4C88FF;
+    border-radius: 50%;
+}
+
+
+.icon-check {
+    color: grey;
+    border-radius: 50%;
+    &:hover {
+        color: #47B36B;
+    }
+}
+.icon-delete {
+    color: grey;
+    border-radius: 50%;
+    &:hover {
+        color: #EF4E4F;
+    }
+}
+
+
+.material-icons {
+    font-size: 18px;
+    padding: 2px;
+    &:hover {
+        background-color: #dcdfe4;
+    }
+}
+
+.item-done {
+    text-decoration: line-through;
+    font-style: italic;
+    color: grey;
+}
+
+// .callout {
+//   margin: 0;
+// }
+//
+// .close, .mark-done {
+//   transition: opacity 0.5s linear,
+//     color 0.3s linear;
+// }
+//
+// .close:hover {
+//   color: #DD0000;
+// }
+//
+// .mark-done {
+//   opacity: 0.2;
+//   margin-right: 30px;
+//   cursor: pointer;
+// }
+//
+// .mark-done:hover {
+//   opacity: 0.5;
+//   color: #00DD00;
+// }
+//
+// .callout-success {
+//   text-decoration: line-through;
+// }
+li {
+    list-style-type: none;
+    span {
+        margin: 0 5px;
+    }
+}
+
+.todo-form {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+i {
+  font-style: normal !important;
+}
